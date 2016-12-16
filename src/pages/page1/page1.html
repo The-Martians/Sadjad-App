@@ -1,18 +1,76 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="abi">
     <button end ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>خانه</ion-title>
+    <ion-title >خانه</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+  <ion-slides>
+  <ion-slide>
+    <h5>Slide 1</h5>
+  </ion-slide>
+  <ion-slide>
+    <h5>Slide 2</h5>
+  </ion-slide>
+  <ion-slide>
+    <h5>Slide 3</h5>
+  </ion-slide>
+</ion-slides>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  <ion-row>
+      <ion-col >
+        <button ion-button block color="banafsh" >برنامه کلاسی من</button>
+        <div class="padding-top20">
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+          <h6 class="small-font">          <ion-icon name="pizza" color="danger"   item-left></ion-icon>
+ غذای فردا سلف</h6>
+          <h2 block color="danger" text-center>رولت گوشت</h2>
+          <button ion-button block class="small-font" color="danger">همین الآن سفارش بده!</button>
+          <button ion-button block color="zard" class="sefid">کتابخونه !</button>
+          <button ion-button block color="sabz" class="sefid">انتخاب واحد</button>
+        </div>
+
+                  </ion-col>
+      <ion-col>
+        <button ion-button block outline togleMenu>عدم تشکیل کلاس</button>
+<ion-list>
+        <ion-item >
+          <ion-icon name="alert" class="large-font" color="zard" item-left></ion-icon>
+              <a class="small-font">
+                بهزاد بختیاری
+              </a>
+        </ion-item>
+
+        <ion-item full >
+          <ion-icon name="alert" class="large-font" color="zard" item-left></ion-icon>
+              <a class="small-font">
+                احمد نعیمی راد
+              </a>
+        </ion-item>
+
+        <ion-item >
+          <ion-icon name="alert" class="large-font" color="zard"   item-left></ion-icon>
+              <a class="small-font">
+                بهزاد بختیاری
+              </a>
+        </ion-item>
+
+        <ion-item >
+          <ion-icon name="alert" class="large-font" color="zard"   item-left></ion-icon>
+              <a class="small-font">
+                بهزاد بختیاری
+              </a>
+        </ion-item>
+
+</ion-list>
+
+      </ion-col>
+  </ion-row>
+
+  <button ion-button block menuToggle>منوی اصلی</button>
+
+
 </ion-content>

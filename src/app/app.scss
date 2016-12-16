@@ -1,6 +1,16 @@
 // http://ionicframework.com/docs/v2/theming/
 
+/* font-Samim */
+  @font-face {
+      font-family: Samim;
+      src: url('../fonts/samim.eot');
+      src: url('../fonts/samim.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/samim.woff') format('woff'),
+           url('../fonts/samim.ttf') format('truetype');
+      font-weight: normal;
+    }
 
+*{font-family: Samim;}
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These

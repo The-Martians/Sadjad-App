@@ -1,0 +1,32 @@
+page-set-stu {
+  .center{
+    display: block;
+    margin: auto;
+    width: 40%;
+  }
+  .btn_primary #skip{
+    color :black;
+    background-color: #dbdbdf;
+    font-weight: bold;
+  }
+
+  .btn_primary #save{
+    color :white;
+    background-color: #2ec95c;
+    font-weight: bold;
+  }
+  .title{
+    text-align: right;
+    font-size: xx-large;
+    color: black;
+    font-weight: bold;
+  }
+  .sub_title{
+    text-align: right;
+    font-size: medium;
+    color: black;
+  }
+  .sub_title #notice{
+    color: brown;
+  }
+}

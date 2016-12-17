@@ -32937,6 +32937,41 @@ page-checking .load {
   color: #e0a32e;
 }
 
+page-set-stu .center {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+page-set-stu .btn_primary #skip {
+  color: black;
+  background-color: #dbdbdf;
+  font-weight: bold;
+}
+
+page-set-stu .btn_primary #save {
+  color: white;
+  background-color: #2ec95c;
+  font-weight: bold;
+}
+
+page-set-stu .title {
+  text-align: right;
+  font-size: xx-large;
+  color: black;
+  font-weight: bold;
+}
+
+page-set-stu .sub_title {
+  text-align: right;
+  font-size: medium;
+  color: black;
+}
+
+page-set-stu .sub_title #notice {
+  color: brown;
+}
+
 page-welcome .welcome_body_page {
   background-color: #222121;
 }
@@ -32957,6 +32992,12 @@ page-welcome .sub_title {
 page-welcome .btn_welcome {
   background-color: #ffc92d;
   color: black;
+}
+
+page-welcome .center {
+  display: block;
+  margin: auto;
+  width: 40%;
 }
 
 page-welcome2 .welcome2_body_page {

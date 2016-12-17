@@ -8,7 +8,8 @@ import { Page2 } from '../pages/page2/page2';
 import { Setting } from '../pages/setting/setting';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { Welcome2Page } from '../pages/welcome2/welcome2';
-
+import { SetStuPage } from '../pages/set-stu/set-stu';
+import { SetLibPage } from '../pages/set-lib/set-lib';
 
 @Component({
   templateUrl: 'app.html'
@@ -29,7 +30,9 @@ export class MyApp {
       { title: 'صفحه دوم', component: Page2 },
       { title: 'تنظیمات', component: Setting },
       { title: 'خوش آمدید', component: WelcomePage },
-      { title: 'نگران امنیت داده هایتان هستید', component: Welcome2Page }
+      { title: 'نگران امنیت داده هایتان هستید', component: Welcome2Page },
+      { title: 'تنظیمات پرتال دانشجویی', component: SetStuPage },
+      { title: 'تنظیمات کتابخانه', component: SetLibPage }
     ];
 
   }

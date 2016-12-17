@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { WelcomePage } from '../welcome/welcome';
-import {Page1} from "../page1/page1";
+import { SetStuPage } from '../set-stu/set-stu';
 
 /*
   Generated class for the Welcome2 page.
@@ -26,8 +26,7 @@ export class Welcome2Page {
   }
 
   nextPage(){
-    localStorage.setItem("login","1");
-    this.navCtrl.setRoot(Page1);
+    this.navCtrl.push(SetStuPage);
   }
 
 }

@@ -2,9 +2,11 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
 
+import { CheckingPage } from '../pages/checking/checking';
 import { Page1 } from '../pages/page1/page1';
 import { Page2 } from '../pages/page2/page2';
 import { Setting } from '../pages/setting/setting';
+import { WelcomePage } from '../pages/welcome/welcome';
 
 
 @Component({
@@ -13,7 +15,7 @@ import { Setting } from '../pages/setting/setting';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = Page1;
+  rootPage: any = CheckingPage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -24,7 +26,8 @@ export class MyApp {
     this.pages = [
       { title: 'صفحه اول', component: Page1 },
       { title: 'صفحه دوم', component: Page2 },
-      { title: 'تنظیمات', component: Setting }
+      { title: 'تنظیمات', component: Setting },
+      { title: 'خوش آمدید', component: WelcomePage }
     ];
 
   }

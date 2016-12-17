@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { WelcomePage } from '../welcome/welcome';
 
 /*
   Generated class for the Welcome2 page.
@@ -17,6 +18,10 @@ export class Welcome2Page {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Welcome2Page');
+  }
+
+  prePage(){
+    this.navCtrl.push(WelcomePage)
   }
 
 }

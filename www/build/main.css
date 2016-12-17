@@ -32913,43 +32913,76 @@ ion-slides {
   color: #fff;
 }
 
-.check_body_page {
+page-checking .check_body_page {
   background-color: #222121;
 }
 
-.title {
+page-checking .title {
   text-align: center;
   font-size: xx-large;
   color: #ffffff;
   font-weight: bold;
 }
 
-.sub_title {
+page-checking .sub_title {
   text-align: center;
   font-size: medium;
   color: #ffffff;
 }
 
-.load {
+page-checking .load {
   text-align: center;
   margin-top: 20%;
   font-size: large;
   color: #e0a32e;
 }
 
-.welcome_body_page {
+page-welcome .welcome_body_page {
   background-color: #222121;
 }
 
-.title {
+page-welcome .title {
   text-align: right;
+  font-size: xx-large;
+  color: #ffffff;
+  font-weight: bold;
 }
 
-.sub_title {
+page-welcome .sub_title {
   text-align: right;
+  font-size: medium;
+  color: #ffffff;
 }
 
-.btn_welcome {
+page-welcome .btn_welcome {
   background-color: #ffc92d;
   color: black;
+}
+
+page-welcome2 .welcome2_body_page {
+  background-color: #e1ca48;
+}
+
+page-welcome2 .title {
+  text-align: right;
+  font-size: xx-large;
+  color: #000;
+  font-weight: bold;
+}
+
+page-welcome2 .sub_title {
+  text-align: right;
+  font-size: medium;
+  color: #000;
+}
+
+page-welcome2 .btn_welcome {
+  background-color: #222121;
+  color: white;
+}
+
+page-welcome2 .center {
+  display: block;
+  margin: auto;
+  width: 40%;
 }

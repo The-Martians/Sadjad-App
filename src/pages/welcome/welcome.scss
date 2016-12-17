@@ -1,16 +1,21 @@
 page-welcome {
+  .welcome_body_page{
+    background-color: #222121;
+  }
+  .title{
+    text-align: right;
+    font-size: xx-large;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .sub_title{
+    text-align: right;
+    font-size: medium;
+    color: #ffffff;
+  }
+  .btn_welcome{
+    background-color: #ffc92d;
+    color: black;
+  }
 
-}
-.welcome_body_page{
-  background-color: #222121;
-}
-.title{
-  text-align : right;
-}
-.sub_title{
-  text-align : right;
-}
-.btn_welcome{
-  background-color: #ffc92d;
-  color: black;
 }

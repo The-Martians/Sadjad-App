@@ -1,3 +1,25 @@
 page-welcome2 {
-
+  .welcome2_body_page{
+    background-color: rgb(225, 202, 72);
+  }
+  .title{
+    text-align: right;
+    font-size: xx-large;
+    color: #000;
+    font-weight: bold;
+  }
+  .sub_title{
+    text-align: right;
+    font-size: medium;
+    color: #000;
+  }
+  .btn_welcome{
+    background-color: #222121;
+    color: white;
+  }
+  .center{
+    display: block;
+    margin: auto;
+    width: 40%;
+  }
 }

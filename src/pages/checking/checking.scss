@@ -1,24 +1,25 @@
 page-checking {
+  .check_body_page{
+    background-color: #222121;
+  }
+
+  .title{
+    text-align: center;
+    font-size: xx-large;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .sub_title{
+    text-align: center;
+    font-size: medium;
+    color: #ffffff;
+  }
+  .load{
+    text-align: center;
+    margin-top: 20%;
+    font-size: large;
+    color: #e0a32e;
+  }
+
 }
 
-.check_body_page{
-  background-color: #222121;
-}
-
-.title{
-  text-align: center;
-  font-size: xx-large;
-  color: #ffffff;
-  font-weight: bold;
-}
-.sub_title{
-  text-align: center;
-  font-size: medium;
-  color: #ffffff;
-}
-.load{
-  text-align: center;
-  margin-top: 20%;
-  font-size: large;
-  color: #e0a32e;
-}

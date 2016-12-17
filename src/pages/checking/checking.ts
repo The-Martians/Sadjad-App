@@ -41,6 +41,7 @@ export class CheckingPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad CheckingPage');
     if(this.isFirst()){
+      this.navCtrl.setRoot(Page1);
       this.navCtrl.push(Page1);
     }
     else{

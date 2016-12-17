@@ -32936,3 +32936,20 @@ ion-slides {
   font-size: large;
   color: #e0a32e;
 }
+
+.welcome_body_page {
+  background-color: #222121;
+}
+
+.title {
+  text-align: right;
+}
+
+.sub_title {
+  text-align: right;
+}
+
+.btn_welcome {
+  background-color: #ffc92d;
+  color: black;
+}

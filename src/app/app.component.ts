@@ -7,6 +7,7 @@ import { Page1 } from '../pages/page1/page1';
 import { Page2 } from '../pages/page2/page2';
 import { Setting } from '../pages/setting/setting';
 import { WelcomePage } from '../pages/welcome/welcome';
+import { Welcome2Page } from '../pages/welcome2/welcome2';
 
 
 @Component({
@@ -27,7 +28,8 @@ export class MyApp {
       { title: 'صفحه اول', component: Page1 },
       { title: 'صفحه دوم', component: Page2 },
       { title: 'تنظیمات', component: Setting },
-      { title: 'خوش آمدید', component: WelcomePage }
+      { title: 'خوش آمدید', component: WelcomePage },
+      { title: 'نگران امنیت داده هایتان هستید', component: Welcome2Page }
     ];
 
   }

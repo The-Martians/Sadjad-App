@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { Welcome2Page } from '../welcome2/welcome2';
 
 /*
   Generated class for the Welcome page.
@@ -9,14 +10,20 @@ import { NavController, NavParams } from 'ionic-angular';
 */
 @Component({
   selector: 'page-welcome',
-  templateUrl: 'welcome.html'
+  templateUrl: 'welcome.html',
+
 })
 export class WelcomePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad WelcomePage');
   }
 
+  nextPage() {
+    this.navCtrl.push(Welcome2Page);
+  }
 }

@@ -32937,6 +32937,76 @@ page-checking .load {
   color: #e0a32e;
 }
 
+page-set-lib .center {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+page-set-lib .btn_primary #skip {
+  color: black;
+  background-color: #dbdbdf;
+  font-weight: bold;
+}
+
+page-set-lib .btn_primary #save {
+  color: white;
+  background-color: #2ec95c;
+  font-weight: bold;
+}
+
+page-set-lib .title {
+  text-align: right;
+  font-size: xx-large;
+  color: black;
+  font-weight: bold;
+}
+
+page-set-lib .sub_title {
+  text-align: right;
+  font-size: medium;
+  color: black;
+}
+
+page-set-lib .sub_title #notice {
+  color: brown;
+}
+
+page-set-self .center {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+page-set-self .btn_primary #skip {
+  color: black;
+  background-color: #dbdbdf;
+  font-weight: bold;
+}
+
+page-set-self .btn_primary #save {
+  color: white;
+  background-color: #2ec95c;
+  font-weight: bold;
+}
+
+page-set-self .title {
+  text-align: right;
+  font-size: xx-large;
+  color: black;
+  font-weight: bold;
+}
+
+page-set-self .sub_title {
+  text-align: right;
+  font-size: medium;
+  color: black;
+}
+
+page-set-self .sub_title #notice {
+  color: brown;
+}
+
 page-set-stu .center {
   display: block;
   margin: auto;

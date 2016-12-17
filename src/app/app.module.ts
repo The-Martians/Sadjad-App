@@ -9,6 +9,7 @@ import { Page2 } from '../pages/page2/page2';
 import { Setting } from '../pages/setting/setting';
 import { SetStuPage } from '../pages/set-stu/set-stu';
 import { SetLibPage } from '../pages/set-lib/set-lib';
+import { SetSelfPage } from '../pages/set-self/set-self';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SetLibPage } from '../pages/set-lib/set-lib';
     Page2,
     Setting,
     SetStuPage,
-    SetLibPage
+    SetLibPage,
+    SetSelfPage
 
   ],
   imports: [
@@ -36,7 +38,8 @@ import { SetLibPage } from '../pages/set-lib/set-lib';
     Page2,
     Setting,
     SetStuPage,
-    SetLibPage
+    SetLibPage,
+    SetSelfPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-navbar color="zard">
+    <button end ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>تنظیمات</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+
+
+<ion-label color="primary" stacked end>سیستم پرتال دانشجویی</ion-label>
+  <ion-item>
+    <ion-input placeholder="شماره دانشجویی"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="password" placeholder="پسورد"></ion-input>
+  </ion-item>
+  <button ion-button block color="primary" class="sefid">ورود</button>
+
+
+<ion-label color="primary" stacked end>سیستم تغذیه</ion-label>
+  <ion-item>
+    <ion-input placeholder="شماره دانشجویی"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="password" placeholder="پسورد"></ion-input>
+  </ion-item>
+  <button ion-button block color="primary" class="sefid">ورود</button>
+
+
+<ion-label color="primary" stacked end>کتابخانه</ion-label>
+  <ion-item>
+    <ion-input placeholder="شماره دانشجویی"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="password" placeholder="پسورد"></ion-input>
+  </ion-item>
+  <button ion-button block color="primary" class="sefid">ورود</button>
+
+
+<ion-label color="primary" stacked end>سیستم سپهر ( بزودی )</ion-label>
+  <ion-item>
+    <ion-input placeholder="شماره دانشجویی"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="password" placeholder="پسورد"></ion-input>
+  </ion-item>
+  <button ion-button block color="primary" class="sefid">ورود</button>
+
+
+<ion-label color="primary" stacked end> اکانت سجاد اپ! (بزودی) </ion-label>
+  <ion-item>
+    <ion-input type="email" placeholder="ایمیل"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="password" placeholder="پسورد"></ion-input>
+  </ion-item>
+  <button ion-button block color="primary" class="sefid">ورود</button>
+
+
+
+  </ion-list>
+  <div *ngIf="selectedItem" padding>
+    You navigated here from <b>{{selectedItem.title}}</b>
+  </div>
+</ion-content>

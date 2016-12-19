@@ -6,11 +6,7 @@ import { CheckingPage } from '../pages/checking/checking';
 import { Page1 } from '../pages/page1/page1';
 import { Page2 } from '../pages/page2/page2';
 import { Setting } from '../pages/setting/setting';
-import { WelcomePage } from '../pages/welcome/welcome';
-import { Welcome2Page } from '../pages/welcome2/welcome2';
-import { SetStuPage } from '../pages/set-stu/set-stu';
-import { SetLibPage } from '../pages/set-lib/set-lib';
-import { SetSelfPage } from '../pages/set-self/set-self';
+
 
 @Component({
   templateUrl: 'app.html'
